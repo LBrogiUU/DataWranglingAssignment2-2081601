@@ -70,8 +70,15 @@ Batch installation is possible using the supplied "requirements.txt" with pip or
 ````cmd
 pip install -r requirements.txt
 python -m pip uninstall arff
-python -m pip install liac-arff
-python -m pip install pyod statsmodels pycombo liac-arff pandas numpy scipy scikit-learn openpyxl
+python3 -m pip install pyod
+python3 -m pip install statsmodels
+python3 -m pip install pycombo
+python3 -m pip install liac-arff
+python3 -m pip install pandas
+python3 -m pip install numpy
+python3 -m pip install scipy
+python3 -m pip install scikit-learn
+python3 -m pip install openpyxl
 ````
 
 ## Reproducibility & Production Level Code
